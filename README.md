@@ -3,8 +3,7 @@
 <ul>
  <li> npm i jquery</li>
  <li> link the script in html file 
- as <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
-    </script> of the latest version</li>
+ as <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> of the latest version</li>
 </ul>
 
 # typed.js

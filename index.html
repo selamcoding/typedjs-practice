@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script src="./typed.js-2.0.12/lib/typed.js"></script>
+</head>
+
+<body>
+    Line no. 1
+    <br>
+    <div id="myname"></div>
+    <span id="nameanim"></span>
+    <br>
+    <br>
+    Line no. 2
+    <br>
+    <div id="typed-strings">
+        <p>I used two different ways to practice typed.Js</p>
+    </div>
+    <span id="typed"></span>
+
+    <script>
+        $('document').ready(function () {
+            var typed = new Typed("#nameanim", {
+                strings: ["My Name is <br> <i>SELAMAWIT SHIBRU.</i>", "I am a <b>Web Developer</b>."],
+                backSpeed: 40,
+                typeSpeed: 40,
+                loop: true,
+                backDelay: 900,
+            })
+        })
+        $('document').ready(function () {
+            var typed = new Typed("#typed", {
+                stringsElement: "#typed-strings",
+                backSpeed: 70,
+                typeSpeed: 70,
+                loop: true,
+                backDelay: 500,
+            })
+        })
+    </script>
+</body>
+
+</html>
